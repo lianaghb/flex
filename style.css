@@ -1,109 +1,106 @@
 /* подключение шрифтов - font-face */
-@font-face{
-  font-family: "GolosText";
-  src: url("fonts/GolosText-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family: "GolosText"; 
+  src: url("fonts/GolosText-Regular.ttf"); 
+  font-weight: 400; 
+  font-style: normal; 
 }
 
 @font-face {
-  font-family: "GolosText";
-  src: url("fonts/GolosText-Bold.ttf");
-  font-weight: 700;
-  font-style: bold;
+  font-family: "GolosText"; 
+  src: url("fonts/GolosText-Bold.ttf"); 
+  font-weight: 700; 
+  font-style: bold; 
 }
 
 /* начало фрагмента - эти стили трогать нельзя, так как они переиспользуюся в других блоках и страницах сайта */
 /* вес - 0011 */
 .wrp h2 {
-  color: #015cab;
-  font-size: 13px;
-  line-height: 16px;
-  margin-bottom: 9px;
-  font-weight: 400;
+  color: #015cab; 
+  font-size: 13px; 
+  line-height: 16px; 
+  margin-bottom: 9px; 
+  font-weight: 400; 
 }
 
 p {
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 15px; 
+  line-height: 18px; 
 }
 
 .author img {
-  width: 100px;
-  margin-bottom: 6px;
+  width: 100px; 
+  margin-bottom: 6px; 
 }
 /* конец фрагмента */
 /* стили студента */
 
-
-body{
-  font-family: "GolosText", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "GolosText", sans-serif; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 15px; 
+  margin: 0; 
+  padding: 0; 
 }
 /*обнуление*/
 
-h1, h2{
-  margin: 0;
-
+h1, h2 {
+  margin: 0; 
 }
 /* лучше бы задала класс heading, но, верхний html менять нельзя:( */
 
 /* стили для элементов внутри div.content */
 
-h1{
-  font-weight: 400;
+h1 {
+  font-weight: 400; 
   font-size: 36px;
-  line-height: 40px;
-  color: #000000;
+  line-height: 40px; 
+  color: #000000; 
 }
 
 /* вес - 0021 */
-.wrp .content h2{
-  font-size: 32px;
-  line-height: 40px;
-  color: #000000;
+.wrp .content h2 {
+  font-size: 32px; 
+  line-height: 40px; 
+  color: #000000; 
 }
 
-
-.content__definition > p{
-  font-size: 28px;
-  line-height: 35px;
+.content__definition > p {
+  font-size: 28px; 
+  line-height: 35px; 
 }
 
-.content__reason > p{
-  font-size: 20px;
-  line-height: 28px;
+.content__reason > p {
+  font-size: 20px; 
+  line-height: 28px; 
 }
 /* стили для сетки */
 
-.wrp{
-  width: 1040px;
+.wrp {
+  width: 1040px; 
   /* или max-width: 1040px; */
-  margin: auto;
-  padding: 40px;
-  display: flex;
-  flex-direction: row;
+  margin: auto; 
+  padding: 40px; 
+  display: flex; 
+  flex-direction: row; 
 }
 
-.author{
-  width: 173px;
-  position: fixed;
-  top: 80px;
+.author {
+  width: 173px; 
+  position: fixed; 
+  top: 80px; 
 }
 
-.content{
-  width: 750px;
-  padding-left: 210px;
-  position: relative;
-  top: 0;
+.content {
+  width: 750px; 
+  padding-left: 210px; 
+  position: relative; 
+  top: 0; 
 }
 
-.wrp .author img{
-  width: 69px;
-  height: 69px;
+.wrp .author img {
+  width: 69px; 
+  height: 69px; 
 }
 
