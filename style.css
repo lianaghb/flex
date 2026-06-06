@@ -69,11 +69,13 @@ h1 {
 .content__definition > p {
   font-size: 28px; 
   line-height: 35px; 
+  /* 35 делим на 28 = 1.25 - в относительных единицах будет line-height*/
 }
 
 .content__reason > p {
   font-size: 20px; 
   line-height: 28px; 
+  /* 28 делим на 20 = 1.4 - в относительных единицах будет line-height*/
 }
 /* стили для сетки */
 
