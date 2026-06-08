@@ -50,7 +50,6 @@ h1, h2 {
 }
 /* лучше бы задала класс heading, но, верхний html менять нельзя:( */
 
-/* стили для элементов внутри div.content */
 
 h1 {
   font-weight: 700; 
@@ -59,26 +58,7 @@ h1 {
   color: #000000; 
 }
 
-/* вес - 0021 */
-.wrp .content h2 {
-  font-weight: 700;  
-  font-size: 32px; 
-  line-height: 40px; 
-  color: #000000; 
-}
-
-.content__definition > p {
-  font-size: 28px; 
-  line-height: 35px; 
-  /* 35 делим на 28 = 1.25 - в относительных единицах будет line-height*/
-}
-
-.content__reason > p {
-  font-size: 20px; 
-  line-height: 28px; 
-  /* 28 делим на 20 = 1.4 - в относительных единицах будет line-height*/
-}
-/* стили для сетки */
+/*плашка с автором*/
 
 .wrp {
   width: 1040px; 
@@ -95,6 +75,18 @@ h1 {
   top: 80px; 
 }
 
+.wrp > .author > img {
+  width: 69px; 
+  height: 69px; 
+  margin-bottom: 2px;
+}
+
+.wrp > .author > h2 {
+  margin-bottom: -5px; 
+}
+
+/* стили для элементов внутри div.content */
+
 .content {
   width: 750px; 
   padding-left: 210px; 
@@ -102,7 +94,36 @@ h1 {
   top: 0; 
 }
 
-.wrp .author img {
-  width: 69px; 
-  height: 69px; 
+h1.main__heading {
+  margin-top: -7px; 
+  margin-bottom: -6px; 
 }
+
+.content__definition > p {
+  font-size: 28px; 
+  line-height: 35px; 
+  /* 35 делим на 28 = 1.25 - в относительных единицах будет line-height*/
+  margin-bottom: 20px; 
+}
+
+/* вес - 0021 */
+.wrp .content h2 {
+  font-weight: 700;  
+  font-size: 32px; 
+  line-height: 40px; 
+  color: #000000; 
+  margin-bottom: -18px; 
+}
+
+.content__reason > p {
+  font-size: 20px; 
+  line-height: 28px; 
+  margin-bottom: -10px; 
+  /* 28 делим на 20 = 1.4 - в относительных единицах будет line-height*/
+}
+
+
+
+
+
+
